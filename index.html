@@ -7,7 +7,10 @@ Hello World
   <h1>Welcome!</h1>
   <h2>You have been granted access to the platform.</h2> 
   <h3>Please create an account.</h3>
-  <input type="image" placeholder="Select Profile Image">
+  <label for="avatar">Choose a profile picture:</label>
+  <input type="file"
+    id="avatar" name="avatar"
+    accept="image/png, image/jpeg">
   <input type="text" placeholder="Enter Username">
   <input type="password" placeholder="Enter Password">
   <button>Sign up!</button>

@@ -1,24 +1,12 @@
-body, html {
+body, html{
     margin: 0;
     padding: 0; 
 }
 
 
-.news
-{
-    img{
-        width: 100%;
-        display: block;
-        margin: 0;
-        padding: 0;
-    }
-}
-
-
-
 .google
 {
-    img {
+    img{
     width: 30%;
     display: block;
     margin: 100px auto 20px;
@@ -26,7 +14,7 @@ body, html {
     }
 
 
-    input {
+    input{
         box-sizing: border-box;
         display: block;
         border-radius: 24px;
@@ -38,7 +26,7 @@ body, html {
         padding-left: 30px;
         font-size: 16px;
     }
-     button {
+     button{
         box-sizing: border-box;
         margin-top: 0;
         padding: 0 16px;
@@ -49,14 +37,27 @@ body, html {
         cursor: pointer;
     }
     
-    button:first-of-type {
+    button:first-of-type{
         margin-right: 8px;
         margin-left: calc(50% - 131.5px);
     }
 
-    button::hover {
+    button::hover{
         cursor: pointer;   
     }
+    
+
+    .news
+    {
+        img{
+            width: 100%;
+            display: block;
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+
 }
 
 

@@ -2,8 +2,14 @@ body, html {
     margin: 0;
     padding: 0; 
 }
+img{
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
 
-img {
+img1 {
     width: 30%;
     display: block;
     margin: 100px auto 20px;
@@ -21,6 +27,14 @@ input {
     width: 90%;
     padding-left: 30px;
     font-size: 16px;
+}
+button1 {
+    box-sizing: border-box;
+    margin-top: 0;
+    padding: 0 16px;
+    font-size: 14px;
+    background-color: #f8f9fa;
+    cursor: pointer;
 }
 
 button {
